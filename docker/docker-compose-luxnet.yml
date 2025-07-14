@@ -9,7 +9,7 @@ services:
       - '8020:8020'  # Admin endpoint
       - '8040:8040'  # Prometheus metrics endpoint
     extra_hosts:
-      - luxnet:192.168.1.165
+      - luxnet:192.168.1.99
       - host.docker.internal:host-gateway
     environment:
       postgres_host: luxnet
